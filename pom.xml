@@ -18,4 +18,21 @@
   <build>
     <finalName>jenkins-git-integration</finalName>
   </build>
+  <mirrors>
+    <mirror> <!--Send all requests to the public group -->
+      <id>nexus</id>
+      <mirrorOf>*</mirrorOf>
+      <url>http://192.168.1.4:8081/repository/test-repo</url>
+    </mirror>
+  </mirrors>
+<settings>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+</settings>
+  
 </project>
