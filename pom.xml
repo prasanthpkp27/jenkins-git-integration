@@ -25,14 +25,4 @@
       <url>http://192.168.1.4:8081/repository/test-repo</url>
     </mirror>
   </mirrors>
-<settings>
-  <servers>
-    <server>
-      <id>nexus</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
-</settings>
-  
 </project>
